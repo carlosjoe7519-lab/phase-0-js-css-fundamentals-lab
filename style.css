@@ -1,4 +1,4 @@
-nav{
+.navbar {
   background-color: #333;
   font-size: 1.2em;
   padding: 1em;
@@ -9,28 +9,28 @@ nav{
   z-index: 1000;
 }
 
-nav ul{
+.navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-nav ul li{
+.navbar ul li {
     display:inline;
     margin: 0 1em;
 }
 
-nav ul li a{
+.navbar ul li a {
     color: #fff;
 }
 
-.main-content{
+.main-content {
     padding-top: 5em;
 }
 
-.main-content section{
-    margin: 2em 1em;
+.main-content section {
     text-align: center;
+    margin: 2em 1em;
 }
 
 #home{
@@ -39,14 +39,14 @@ nav ul li a{
     color: #666;
 }
 
-.portfolio-container{
+.portfolio-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: around;
+    justify-content: space-around;
     padding: 1em;
 }
 
-.portfolio-item{
+.portfolio-item {
     color: #fff;
     border: 1px solid #ddd;
     margin: 1em;
@@ -57,27 +57,27 @@ nav ul li a{
     transition: transform 0.3s ease;
 }
 
-.portfolio-item h3{
+.portfolio-item h3 {
     font-weight: bold;
     margin-bottom: 0.5em;
 }
 
-.portfolio-item p{
+.portfolio-item p {
     margin-bottom: 0.5em;
     color: #666;
 }
 
-.portfolio-item img{
+.portfolio-item img {
     width: 100%;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 
-.portfolio-item:hover{
+.portfolio-item:hover {
     transform: scale(1.05);
 }
 
-#footer{
+#footer {
     background-color: #222;
     color: #fff;
     padding: 2em;
@@ -86,4 +86,4 @@ nav ul li a{
     bottom: 0;
     width: 100%;
 }
-
+ 
