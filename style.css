@@ -16,7 +16,7 @@
 }
 
 .navbar ul li {
-    display:inline;
+    display: inline;
     margin: 0 1em;
 }
 
@@ -54,7 +54,7 @@
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     width: 30%;
     box-sizing: border-box;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s;
 }
 
 .portfolio-item h3 {
